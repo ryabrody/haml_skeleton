@@ -12,3 +12,8 @@ To generate or update the index.html we use the command `haml`.
 ```bash
 haml index.haml index.html
 ```
+
+
+sources:
+http://stackoverflow.com/questions/6125265/using-layouts-in-haml-files-independently-of-rails
+http://ezekielbinion.com/blog/how-to-use-haml-coffeescript-sass-without-creating-a-rails-app/

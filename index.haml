@@ -1,3 +1,6 @@
+- def render(partial, locals = {})
+-   Haml::Engine.new(File.read("_#{partial}.html.haml")).render(Object.new, locals)
+
 !!! 5
 %html{ lang: 'en' }
   %head
