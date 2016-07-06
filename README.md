@@ -24,5 +24,5 @@ If you wanna compile the .haml file without guard then just do it with haml itse
 haml index.haml index.html
 ```
 sources:
-http://stackoverflow.com/questions/6125265/using-layouts-in-haml-files-independently-of-rails
-http://ezekielbinion.com/blog/how-to-use-haml-coffeescript-sass-without-creating-a-rails-app/
+* http://stackoverflow.com/questions/6125265/using-layouts-in-haml-files-independently-of-rails
+* http://ezekielbinion.com/blog/how-to-use-haml-coffeescript-sass-without-creating-a-rails-app/
