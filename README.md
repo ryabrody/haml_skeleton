@@ -10,5 +10,5 @@ gem install haml
 
 2.) Compile haml to html (update index.html)
 ```bash
-haml [input-filename.haml] [output-filename.html]
+haml index.haml index.html
 ```
