@@ -3,12 +3,12 @@ This repo is a skeleton for static pages created by writing haml intead of html.
 
 # Setup and Usage
 
-1.) Install haml
+We need the gem called "haml" to compile haml to html.
+Install haml:
 ```bash
 gem install haml
 ```
-
-2.) Compile haml to html (update index.html)
+To generate or update the index.html we use the command `haml`.
 ```bash
 haml index.haml index.html
 ```
