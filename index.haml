@@ -1,0 +1,35 @@
+- require 'pry'
+
+:ruby
+  def render(partial, locals = {})
+    Haml::Engine.new(File.read("_#{partial}.haml")).render(Object.new, locals)
+  end
+
+!!! 5
+%html{ lang: 'en' }
+  %head
+    %title Demo Page
+  %body
+    %h1 Demo Styleguide
+
+    %hr
+
+    %h2 Image
+    Placekitten.com provides images which can be used as placeholder if images for production are not available now.
+    %h3 Example
+    = render 'image'
+    %pre
+      %code&= render 'image'
+
+    %hr
+
+    %h2 Buttons
+    Fancy larger or smaller buttons?
+    %h3 Example
+    = render 'Buttons'
+    %pre
+      %code&= render 'buttons'
+    %hr
+
+    Das ist ein Test
+    Dast ist ien adne
